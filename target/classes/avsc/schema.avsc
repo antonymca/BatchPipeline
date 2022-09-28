@@ -1,0 +1,39 @@
+{
+"type": "record",
+"name": "Sales",
+"namespace": "com.demo.sales.avro.models",
+"fields":[
+{
+"name": "order_number",
+"type": "int"
+},
+{
+"name": "product_line",
+"type": "string"
+},
+{
+"name": "sales",
+"type": "int"
+},
+{
+"name": "msrp",
+"type": "float"
+},
+{
+"name": "customer_name",
+"type": "string"
+},
+{
+"name": "phone",
+"type": "string"
+},
+{
+"name": "city",
+"type": "string"
+},
+{
+"name": "country",
+"type": "string"
+}
+]
+}
